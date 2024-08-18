@@ -8,6 +8,7 @@ various sensors. This library is designed to be accessible for beginners.
 
 - **LED Control**: Turn an LED on or off.
 - **Dimmable LED Control**: Set brightness for a LED.
+- **Button**: A button with a callback.
 
 More features coming later
 

@@ -1,5 +1,5 @@
 import time
-from simplesp.button import Button  # Import the Button class from the SimplESP library
+from simplesp import Button  # Import the Button class from the SimplESP library
 
 # Callback function to handle button press
 def on_button_pressed(pin):

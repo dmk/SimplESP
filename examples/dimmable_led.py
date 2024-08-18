@@ -1,5 +1,5 @@
 import time
-from simplesp.dimmable_led import DimmableLED  # Import the DimmableLED class from the SimplESP library
+from simplesp import DimmableLED  # Import the DimmableLED class from the SimplESP library
 
 # Initialize the DimmableLED object
 led = DimmableLED(pin_number=2)

@@ -1,5 +1,5 @@
 import time
-from simplesp.led import LED  # Import the LED class from the SimplESP library
+from simplesp import LED  # Import the LED class from the SimplESP library
 
 # Initialize the LED object
 # Replace '2' with the GPIO pin number connected to your LED

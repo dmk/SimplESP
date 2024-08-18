@@ -14,7 +14,7 @@ deploy_file() {
     local file="$1"
     local target="/$1"
     if [ -f "$file" ]; then
-        log-info "Deploying $file to $target"
+        log-info "Copying $file to $target"
         run-ampy put $file $target
     else
         log-error "File $file does not exist."

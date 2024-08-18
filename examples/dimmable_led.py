@@ -27,7 +27,7 @@ b = 0
 sign = 1
 
 for _ in range(5):  # Repeat the breathing effect 5 times
-    for _ in range(2046):  # 1023 up, 1023 down
+    for _ in range(2046):  # 1023 two times, once up and once down
         b = b + sign
         if b == 1023 or b == 0:
             sign = -1 * sign

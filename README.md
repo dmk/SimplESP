@@ -6,7 +6,8 @@ various sensors. This library is designed to be accessible for beginners.
 
 ## Features
 
-- **LED Control**: Turn an LED on or off with simple commands.
+- **LED Control**: Turn an LED on or off.
+- **Dimmable LED Control**: Set brightness for a LED.
 
 More features coming later
 
